@@ -9,7 +9,6 @@
         -2 => E:\\AmauryDeflorenne\\Bureau\\cours-nodejs-ia-2021\\demo-4\\index.js
         -3 => development
 */
-
 const nom = process.argv[2];
 
 if (nom === undefined) {

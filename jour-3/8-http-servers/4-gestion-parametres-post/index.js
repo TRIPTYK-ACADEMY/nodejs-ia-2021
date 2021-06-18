@@ -17,12 +17,13 @@ const readPostData = (req) =>{
 }
 
 const server = http.createServer(async (req,res)=>{
-    console.log(parse(req.url,true))
+   
     let output;
     let type;
     let status =200;
 
     let pathName = parse(req.url,true).pathname
+    console.log(pathName)
     let query = parse(req.url,true).query
     if(pathName === '/')
     {
